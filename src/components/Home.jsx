@@ -7,7 +7,13 @@ import Complaints from '../assets/Complaints.png'
 import Resolved from '../assets/Resolved.png'
 import Calls from '../assets/Calls.png'
 import Social from '../assets/Social.jpeg'
-
+import Human5 from '../assets/Human5.png'
+import images9 from '../assets/images9.png'
+import images10 from '../assets/images10.png'
+import images11 from '../assets/images11.png'
+import images12 from '../assets/images12.png'
+import impact from '../assets/impact.png'
+import Team from '../assets/Team.jpeg'
 
 
 function Home() {
@@ -19,7 +25,7 @@ function Home() {
   <div class="carousel-inner">
     
     <div class="carousel-item active" data-bs-interval="10000">
-    <img src="../src/assets/Human 5.png" class="d-block w-100"style={{height:650}} alt="img"/>
+    <img src={Human5} class="d-block w-100"style={{height:650}} alt="img"/>
     <div class="carousel-caption d-none d-md-block pb-5 mb-5">
          <h1 className='text-light'style={{fontSize:50}} >Welcome To Citizen Response</h1>
          <h3>Your platform for empowering communities and amplifying your voices.</h3>
@@ -31,7 +37,7 @@ function Home() {
 
 {/* second carousel begins */}
     <div class="carousel-item" data-bs-interval="2000">
-    <img src="../src/assets/images9.png" class="d-block w-100"style={{height:650}} alt="img"/>
+    <img src={images9} class="d-block w-100"style={{height:650}} alt="img"/>
     <div class="carousel-caption d-none d-md-block pb-5 mb-5">
     <h1 className='text-light'>EMPOWERING COMMUNITIES</h1>
   <p style={{color:'white', fontSize:'20px'}}>We provide a platform for reporting community needs, government engagement and community empowerment.</p>
@@ -42,7 +48,7 @@ function Home() {
 {/* third carousel begins */}
 
   <div class="carousel-item" data-bs-interval="2000">
-    <img src="../src/assets/images10.png" class="d-block w-100"style={{height:650}} alt="img"/>
+    <img src={images10}class="d-block w-100"style={{height:650}} alt="img"/>
     
     <div class="carousel-caption d-none d-md-block pb-5 mb-5">
     <h1 className='text-light'>COMMUNITY CONNECT</h1>
@@ -101,7 +107,7 @@ function Home() {
       {/* Z-index Image */}
       <div className="col-md-6 text-center">
         <div className='historyImage'>
-          <img src="../src/assets/images11.png" className='img-fluid' alt="" />
+          <img src={images11} className='img-fluid' alt="" />
         </div>
       </div>
     </div>
@@ -125,7 +131,7 @@ function Home() {
       {/* Z-index Image */}
       <div className="col-md-6 text-center">
         <div className='workImage'>
-          <img src="../src/assets/images12.pnnpmg" className='img-fluid' alt="" />
+          <img src={images12} className='img-fluid' alt="" />
         </div>
       </div>
     </div>
@@ -181,7 +187,7 @@ function Home() {
    {/* Z-index Image */}
     <div className="col-md-6 text-center">
       <div className='impactImage'>
-        <img src="../src/assets/impact.png" className='img-fluid' alt="" />
+        <img src={impact} className='img-fluid' alt="" />
       </div>
     </div>
    </div>
@@ -204,7 +210,7 @@ function Home() {
       {/* Z-index Image */}
       <div className="col-md-6 text-center">
         <div className='teamImage'>
-          <img src="../src/assets/Team.jpeg" className='img-fluid' alt="" />
+          <img src={Team} className='img-fluid' alt="" />
         </div>
       </div>
     </div>
