@@ -19,7 +19,7 @@ function Home() {
   <div class="carousel-inner">
     
     <div class="carousel-item active" data-bs-interval="10000">
-    <img src="../src/assets/Human 2.jpg" class="d-block w-100"style={{height:650}} alt="img"/>
+    <img src="../src/assets/Human 5.png" class="d-block w-100"style={{height:650}} alt="img"/>
     <div class="carousel-caption d-none d-md-block pb-5 mb-5">
          <h1 className='text-light'style={{fontSize:50}} >Welcome To Citizen Response</h1>
          <h3>Your platform for empowering communities and amplifying your voices.</h3>
@@ -31,7 +31,7 @@ function Home() {
 
 {/* second carousel begins */}
     <div class="carousel-item" data-bs-interval="2000">
-    <img src="../src/assets/images3.jpeg" class="d-block w-100"style={{height:650}} alt="img"/>
+    <img src="../src/assets/images9.png" class="d-block w-100"style={{height:650}} alt="img"/>
     <div class="carousel-caption d-none d-md-block pb-5 mb-5">
     <h1 className='text-light'>EMPOWERING COMMUNITIES</h1>
   <p style={{color:'white', fontSize:'20px'}}>We provide a platform for reporting community needs, government engagement and community empowerment.</p>
@@ -42,7 +42,7 @@ function Home() {
 {/* third carousel begins */}
 
   <div class="carousel-item" data-bs-interval="2000">
-    <img src="../src/assets/images8.jpeg" class="d-block w-100"style={{height:650}} alt="img"/>
+    <img src="../src/assets/images10.png" class="d-block w-100"style={{height:650}} alt="img"/>
     
     <div class="carousel-caption d-none d-md-block pb-5 mb-5">
     <h1 className='text-light'>COMMUNITY CONNECT</h1>
@@ -101,7 +101,7 @@ function Home() {
       {/* Z-index Image */}
       <div className="col-md-6 text-center">
         <div className='historyImage'>
-          <img src="../src/assets/images7.jpeg" className='img-fluid' alt="" />
+          <img src="../src/assets/images11.png" className='img-fluid' alt="" />
         </div>
       </div>
     </div>
@@ -125,7 +125,7 @@ function Home() {
       {/* Z-index Image */}
       <div className="col-md-6 text-center">
         <div className='workImage'>
-          <img src="../src/assets/images5.jpeg" className='img-fluid' alt="" />
+          <img src="../src/assets/images12.pnnpmg" className='img-fluid' alt="" />
         </div>
       </div>
     </div>
