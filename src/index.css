@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body{
+    background-color: rgb(19, 17, 17);
+    font-family: "Lato", sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 700;
+  }
+
+  .btn-danger{
+    background-color: #E71800 !important;
+  }
+
+  .report a{
+    font-weight: bold;
+  }
+
+  .navbar-brand p{
+    font-weight: bold;
+  }
+
+  .nav-item a{
+    font-weight: bold;
+  }
+
+.bg-red a{
+    font-weight: bolder;
+}
+
+/* history section */
+
+#history{
+    background-color: rgb(161, 236, 211);
+}
+
+.historyArea{
+    background-color: whitesmoke;
+    height: 350px;
+    margin-right: -40px;
+    padding-top: 30px;
+    padding-right: 2rem;
+    padding-left: 1.5rem;
+}
+
+.historyImage{
+    padding-top: 50px;
+    width: 350px;
+    margin-left: -20px;
+    z-index: 50;
+    position: relative;
+}
+
+
+/* work section */
+
+#work{
+    background-color:  rgb(219, 197, 168);
+}
+
+.workArea{
+    background-color: whitesmoke;
+    height: 350px;
+    margin-right: -40px;
+    padding-top: 30px;
+    padding-right: 2rem;
+    padding-left: 1.5rem;
+}
+
+.workImage{
+    padding-top: 50px;
+    width: 350px;
+    margin-left: -20px;
+    z-index: 50;
+    position: relative;
+}
+
+/* impact section */
+
+#impact{
+    background-color:  rgb(161, 236, 211);
+}
+
+.impactArea{
+    background-color: whitesmoke;
+    height: 460px;
+    margin-right: -50px;
+    padding-top: 30px;
+    padding-right: 2rem;
+    padding-left: 1.5rem;
+}
+
+.impactImage{
+    padding-top: 50px;
+    width: 350px;
+    margin-left: -40px;
+    z-index: 50;
+    position: relative;
+}
+
+
+/* team section */
+
+#team{
+    background-color:  rgb(219, 197, 168);
+}
+
+.teamArea{
+    background-color: rgb(161, 236, 211);
+    height: 460px;
+    margin-right: -40px;
+    padding-top: 30px;
+    padding-right: 2rem;
+    padding-left: 1.5rem;
+}
+
+.teamImage{
+    padding-top: 40px;
+    width: 350px;
+    margin-left: -20px;
+    z-index: 50;
+    position: relative;
+}
+section h3{
+    font-weight: bold;
+}
+
+span{
+    font-weight: 500;
+}
