@@ -336,6 +336,7 @@ span{
 
     .workArea{
         height: 500px;
+        padding-bottom: 8rem;
     }
 
     #work p{
@@ -351,6 +352,7 @@ span{
 
     .impactArea{
         height: 500px;
+        padding-bottom: 8rem;
     }
 
     #impact p{
@@ -366,6 +368,7 @@ span{
 
     .teamArea{
         height: 500px;
+        padding-bottom: 8rem;
     }
 
     #team p{
