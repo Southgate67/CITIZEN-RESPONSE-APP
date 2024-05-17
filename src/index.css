@@ -38,6 +38,11 @@ h1{
     font-weight: bolder;
 }
 
+/* .join{
+    margin-left: 13.5rem;
+} */
+
+
 /* history section */
 
 #history{
@@ -137,4 +142,235 @@ section h3{
 
 span{
     font-weight: 500;
+}
+
+#impact img{
+    border: 1px red;
+}
+
+
+
+
+/* media query */
+@media screen and (max-width: 1200px) {
+    .container{
+        background-size: 1200px 100vh;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container{
+        background-size: 992px 100vh;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container{
+        background-size: 768px 100vh;
+    }
+
+    #history p{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .historyImage{
+        margin-left: 4.1rem;
+        margin-right: 3rem;
+        padding-top: 0;
+        text-align: center;
+    }
+
+    #work p{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .workImage{
+        margin-left: 4.1rem;
+        margin-right: 3rem;
+        padding-top: 0;
+        text-align: center;
+    }
+
+    #impact p{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .impactImage{
+        margin-left: 4.1rem;
+        margin-right: 3rem;
+        padding-top: 0;
+        text-align: center;
+    }
+
+    #team p{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .teamImage{
+        margin-left: 4.1rem;
+        margin-right: 3rem;
+        padding-top: 0;
+        text-align: center;
+    }
+
+    
+    .mt-3{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        text-align: center;
+    }
+
+    .mt-3 img{
+        padding-right: 1.5rem;
+    }
+
+    .why{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container{
+        background-size: 576px 100vh;
+    }
+
+    #history p{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .historyImage{
+        margin-left: 4.1rem;
+        margin-right: 3rem;
+        padding-top: 0;
+        text-align: center;
+    }
+
+    #work p{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .workImage{
+        margin-left: 4.1rem;
+        margin-right: 3rem;
+        padding-top: 0;
+        text-align: center;
+    }
+
+    #impact p{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .impactImage{
+        margin-left: 4.1rem;
+        margin-right: 3rem;
+        padding-top: 0;
+        text-align: center;
+    }
+
+    #team p{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .teamImage{
+        margin-left: 4.1rem;
+        margin-right: 3rem;
+        padding-top: 0;
+        text-align: center;
+    }
+    
+    .mt-3{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        text-align: center;
+    }
+
+    .mt-3 img{
+        padding-right: 1.5rem;
+    }
+
+    .why{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .container{
+        background-size: 320px 100vh;
+    }
+
+    #history p{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .historyImage{
+        margin-left: 4.1rem;
+        margin-right: 3rem;
+        padding-top: 0;
+        text-align: center;
+    }
+
+    #work p{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .workImage{
+        margin-left: 4.1rem;
+        margin-right: 3rem;
+        padding-top: 0;
+        text-align: center;
+    }
+
+    #impact p{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .impactImage{
+        margin-left: 4.1rem;
+        margin-right: 3rem;
+        padding-top: 0;
+        text-align: center;
+    }
+
+    #team p{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .teamImage{
+        margin-left: 4.1rem;
+        margin-right: 3rem;
+        padding-top: 0;
+        text-align: center;
+    }
+    
+    .mt-3{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        text-align: center;
+    }
+
+    .mt-3 img{
+        padding-right: 1.5rem;
+    }
+
+    .why{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        text-align: center;
+    }
 }

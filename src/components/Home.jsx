@@ -73,7 +73,7 @@ function Home() {
           <h2 className='text-success'>READY TO MAKE YOUR VOICE HEARD?</h2>
     </div>
         <div className="bg-red mx-auto text-center mt-3"> <a href="" className="btn btn-danger">Click Here</a> </div>
-        <div className='mt-3'> <p>Citizens voices are often not heard due to several hindrances. This negates the possibility of government staying abreast with the emerging challenges and problems in different communities  in Nigeria, thus, hindering citizens active participation in the  decision-making processes and the development of inclusive policies for effective governance at levels. We facilitate seamless communication between communities and government agencies, empowering communities to address their needs effectively, and promoting transparency and accountability in government interventions.</p>
+        <div className='mt-3'> <p>Citizens voices are often not heard due to several hindrances. This negates the possibility of government staying abreast with the emerging challenges and problems in different communities  in Nigeria, thus, hindering citizens active participation in the  decision-making processes and the development of inclusive policies for effective governance at levels. <br /> <br /> <span className='text-success'>CITIZEN RESPONSE</span> facilitates seamless communication between communities and government agencies, empowering communities to address their needs effectively, and promoting transparency and accountability in government interventions.</p>
         </div>
   </div>
 
@@ -83,10 +83,12 @@ function Home() {
       <img src={Community1} className='img-fluid rounded' alt="" />
     </div>
 
-    <div className="col-md-6 mt-5" >
+    <div className="col-md-6 mt-5">
       <h1 className='text-success'>WHY JOIN OUR PLATFORM?</h1>
-      <p>CITIZEN RESPONSE    is a user-friendly and citizen-centric web application were the citizens in each community in Nigeria can report the challenges and problems in their communities, such as environmental disasters, security threats, pollution, and other needs to the relevant government agencies and to their constituency representatives.</p> <p>The platform enables direct reporting to the concerned authorities without any third-party hindrance or interference.</p>
-      <a href="" className="btn btn-success">JOIN</a>
+      <p className='why'><span className='text-success' >CITIZEN RESPONSE</span> is a user-friendly and citizen-centric web application were the citizens in each community in Nigeria can report the challenges and problems in their communities, such as environmental disasters, security threats, pollution, and other needs to the relevant government agencies and to their constituency representatives.</p> <p>The platform enables direct reporting to the concerned authorities without any third-party hindrance or interference.</p>
+
+      <div className='join text-center'>
+      <button type='button' name='button' className='btn btn-success mb-5'>JOIN</button></div>
     </div>
   </div>
 </div>
@@ -147,8 +149,8 @@ function Home() {
       <div className=''>
         <h3 className='text-success text-center'>Our Impact</h3>
         <div className="d-flex mt-3">
-          <div className="flex-grow-0 ms-2">
-            <img src={Complaints} className="mb-2" alt="" style={{width:65}}/>
+          <div className="flex-grow-0 ms-0">
+            <img src={Complaints} className="mb-2" alt="" style={{width:75}}/>
           </div>
           <div className="flex-grow-1 ms-2">
             <p className="ms-3 mb-1 pt-3">Over <span className='text-danger'>35,800</span> complaints, challenges, and reports logged.</p>
@@ -167,7 +169,7 @@ function Home() {
 
       <div className="d-flex mt-1">
         <div className="flex-grow-0 ms-2">
-          <img src={Calls} className="my-1" alt="" style={{width:100}}/>
+          <img src={Calls} className="my-1" alt="" style={{width:65}}/>
       </div>
       <div className="flex-grow-1 ms-2">
         <p className="mb-3" style={{paddingTop:37}}>Over <span className='text-danger'>48,680</span> enquiries to the customercare line.</p>
@@ -187,7 +189,7 @@ function Home() {
    {/* Z-index Image */}
     <div className="col-md-6 text-center">
       <div className='impactImage'>
-        <img src={impact} className='img-fluid' alt="" />
+        <img src={impact} className='img-fluid' alt=""/>
       </div>
     </div>
    </div>
