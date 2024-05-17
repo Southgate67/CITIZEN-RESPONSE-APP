@@ -113,6 +113,13 @@ h1{
     position: relative;
 }
 
+#impact p{
+    margin-left: 1rem;
+}
+
+
+
+
 
 /* team section */
 
@@ -265,8 +272,9 @@ span{
     }
 
     #impact p{
-        padding-left: 1.5rem;
+        padding-left: 1rem;
         padding-right: 1.5rem;
+        margin-left: 1rem;
     }
 
     .impactImage{
@@ -275,6 +283,11 @@ span{
         padding-top: 0;
         text-align: center;
     }
+
+    #impact img{
+        margin-left: 1.5rem;
+    }
+
 
     #team p{
         padding-left: 1.5rem;
@@ -321,6 +334,10 @@ span{
         text-align: center;
     }
 
+    .workArea{
+        height: 500px;
+    }
+
     #work p{
         padding-left: 1.5rem;
         padding-right: 1.5rem;
@@ -332,6 +349,10 @@ span{
         text-align: center;
     }
 
+    .impactArea{
+        height: 500px;
+    }
+
     #impact p{
         padding-left: 1.5rem;
         padding-right: 1.5rem;
@@ -341,6 +362,10 @@ span{
         padding-left: 1.5rem;
         padding-right: 1.5rem;
         text-align: center;
+    }
+
+    .teamArea{
+        height: 500px;
     }
 
     #team p{
