@@ -318,7 +318,7 @@ span{
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) {
     .container{
         background-size: 320px 100vh;
     }
@@ -334,10 +334,9 @@ span{
         text-align: center;
     }
 
-    .workArea{
+    /* .workArea{
         height: 500px;
-        padding-bottom: 8rem;
-    }
+    } */
 
     #work p{
         padding-left: 1.5rem;
@@ -350,10 +349,9 @@ span{
         text-align: center;
     }
 
-    .impactArea{
+    /* .impactArea{
         height: 500px;
-        padding-bottom: 8rem;
-    }
+    } */
 
     #impact p{
         padding-left: 1.5rem;
@@ -366,10 +364,9 @@ span{
         text-align: center;
     }
 
-    .teamArea{
+    /* .teamArea{
         height: 500px;
-        padding-bottom: 8rem;
-    }
+    } */
 
     #team p{
         padding-left: 1.5rem;
