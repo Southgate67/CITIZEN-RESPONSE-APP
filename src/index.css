@@ -328,55 +328,22 @@ span{
         padding-right: 1.5rem;
     }
 
-    .historyImage{
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
-        /* text-align: center; */
-    }
-
-    /* .workArea{
-        height: 500px;
-    } */
 
     #work p{
         padding-left: 1.5rem;
         padding-right: 1.5rem;
     }
 
-    .workImage{
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
-        /* text-align: center; */
-    }
-
-    /* .impactArea{
-        height: 500px;
-    } */
 
     #impact p{
         padding-left: 1.5rem;
         padding-right: 1.5rem;
     }
 
-    .impactImage{
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
-        /* text-align: center; */
-    }
-
-    /* .teamArea{
-        height: 500px;
-    } */
 
     #team p{
         padding-left: 1.5rem;
         padding-right: 1.5rem;
-    }
-
-    .teamImage{
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
-        /* text-align: center; */
     }
     
     .mt-3{
