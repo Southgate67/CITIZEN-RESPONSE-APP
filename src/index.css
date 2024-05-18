@@ -254,7 +254,8 @@ span{
 
     .historyImage{
         padding-top: 0;
-        text-align: center;
+        /* text-align: center; */
+        margin-left: 0;
     }
 
     #work p{
