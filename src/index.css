@@ -283,7 +283,7 @@ span{
         margin-left: 1.5rem;
     }
 
-    .impactArea{
+    .historyArea, .workArea, .impactArea, .teamArea{
         height: 550px;
     }
 
@@ -312,6 +312,10 @@ span{
         padding-left: 1.5rem;
         padding-right: 1.5rem;
         text-align: center;
+    }
+
+    .carousel-item img{
+        height: 500px;
     }
 
 }
