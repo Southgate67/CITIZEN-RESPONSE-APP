@@ -254,7 +254,7 @@ span{
 
     .historyImage{
         padding-top: 0;
-        /* text-align: center; */
+        text-align: center;
         margin-left: 0;
     }
 
@@ -264,10 +264,9 @@ span{
     }
 
     .workImage{
-        margin-left: 4.1rem;
-        margin-right: 3rem;
         padding-top: 0;
         text-align: center;
+        margin-left: 0;
     }
 
     #impact p{
@@ -277,10 +276,9 @@ span{
     }
 
     .impactImage{
-        margin-left: 4.1rem;
-        margin-right: 3rem;
         padding-top: 0;
         text-align: center;
+        margin-left: 0;
     }
 
     #impact img{
@@ -294,10 +292,9 @@ span{
     }
 
     .teamImage{
-        margin-left: 4.1rem;
-        margin-right: 3rem;
         padding-top: 0;
         text-align: center;
+        margin-left: 0;
     }
     
     .mt-3{
