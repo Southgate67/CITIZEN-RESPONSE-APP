@@ -314,7 +314,7 @@ span{
         text-align: center;
     }
 
-    .workArea .impactArea .teamArea{
+    .workArea, .impactArea, .teamArea{
         margin-bottom: 5rem;
     }
-}
+}git
