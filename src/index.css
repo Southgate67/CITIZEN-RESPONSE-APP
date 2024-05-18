@@ -254,7 +254,7 @@ span{
     }
 
     .historyImage{
-        padding-top: 0;
+        margin-top: 0;
         text-align: center;
         margin-left: 0;
     }
@@ -265,7 +265,7 @@ span{
     }
 
     .workImage{
-        padding-top: 0;
+        margin-top: 0;
         text-align: center;
         margin-left: 0;
     }
@@ -277,7 +277,7 @@ span{
     }
 
     .impactImage{
-        padding-top: 0;
+        margin-top: 0;
         text-align: center;
         margin-left: 0;
     }
@@ -293,7 +293,7 @@ span{
     }
 
     .teamImage{
-        padding-top: 0;
+        margin-top: 0;
         text-align: center;
         margin-left: 0;
     }
@@ -314,7 +314,4 @@ span{
         text-align: center;
     }
 
-    .workArea, .impactArea, .teamArea{
-        margin-bottom: 5rem;
-    }
-}git
+}
