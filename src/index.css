@@ -245,6 +245,7 @@ span{
 @media screen and (max-width: 576px) {
     .container{
         background-size: 576px 100vh;
+        overflow: hidden;
     }
 
     #history p{
@@ -311,5 +312,9 @@ span{
         padding-left: 1.5rem;
         padding-right: 1.5rem;
         text-align: center;
+    }
+
+    .workArea .impactArea .teamArea{
+        margin-bottom: 5rem;
     }
 }
