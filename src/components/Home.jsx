@@ -25,7 +25,8 @@ function Home() {
   <div class="carousel-inner">
     
     <div class="carousel-item active" data-bs-interval="10000">
-    <img src={Human5} class="d-block w-100"style={{height:650}} alt="img"/>
+      <div className='carouselImage'><img src={Human5} class="d-block w-100"style={{height:650}} alt="img"/></div>
+      
     <div class="carousel-caption d-none d-md-block pb-5 mb-5">
          <h1 className='text-light'style={{fontSize:50}} >Welcome To Citizen Response</h1>
          <h3>Your platform for empowering communities and amplifying your voices.</h3>
@@ -37,7 +38,7 @@ function Home() {
 
 {/* second carousel begins */}
     <div class="carousel-item" data-bs-interval="2000">
-    <img src={images9} class="d-block w-100"style={{height:650}} alt="img"/>
+      <div className='carouselImage'><img src={images9} class="d-block w-100"style={{height:650}} alt="img"/></div>
     <div class="carousel-caption d-none d-md-block pb-5 mb-5">
     <h1 className='text-light'>EMPOWERING COMMUNITIES</h1>
   <p style={{color:'white', fontSize:'20px'}}>We provide a platform for reporting community needs, government engagement and community empowerment.</p>
@@ -48,7 +49,7 @@ function Home() {
 {/* third carousel begins */}
 
   <div class="carousel-item" data-bs-interval="2000">
-    <img src={images10}class="d-block w-100"style={{height:650}} alt="img"/>
+    <div className='carouselImage'><img src={images10}class="d-block w-100"style={{height:650}} alt="img"/></div>
     
     <div class="carousel-caption d-none d-md-block pb-5 mb-5">
     <h1 className='text-light'>COMMUNITY CONNECT</h1>
