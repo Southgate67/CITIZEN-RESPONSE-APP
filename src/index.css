@@ -256,6 +256,7 @@ span{
     .historyImage{
         text-align: center;
         margin-left: 0;
+        margin-right: 1.5rem;
     }
 
     #work p{
@@ -266,6 +267,7 @@ span{
     .workImage{
         text-align: center;
         margin-left: 0;
+        margin-right: 1.5rem;
     }
 
     #impact p{
@@ -292,6 +294,7 @@ span{
     .teamImage{
         text-align: center;
         margin-left: 0;
+        margin-right: 1.5rem;
     }
     
     .mt-3{
@@ -319,11 +322,11 @@ span{
     }
 
     .workArea{
-        height: 500px;
+        height: 510px;
     }
 
     .impactArea{
-        height: 540px;
+        height: 550px;
     }
 
     .teamArea{
