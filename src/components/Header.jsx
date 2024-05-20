@@ -1,5 +1,6 @@
 import React from 'react'
 import Citizen from '../assets/Citizen.jpg'
+import Reports from './Reports'
 
 function Header() {
   return (
@@ -19,16 +20,29 @@ function Header() {
         <li className="nav-item">
           <a className="nav-link text-dark" href="./about">About</a>
         </li>
-        <li className="nav-item">
-          <a className="nav-link text-dark" href="./access">Access Reports</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-danger" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Access Reports
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="../Reports">Environment</a></li>
+            <li><a class="dropdown-item" href="../Reports">Security Threats</a></li>
+            {/* <li><hr class="dropdown-divider"/></li> */}
+            <li><a class="dropdown-item" href="../Reports">Natural Disaster</a></li>
+            <li><a class="dropdown-item" href="../Reports">Infastructure</a></li>
+            <li><a class="dropdown-item" href="../Reports">Others</a></li>
+          </ul>
         </li>
         <li className="nav-item">
           <a className="nav-link text-dark" href="./contact">Contact</a>
         </li>
+        <li className="nav-item">
+          <a className="nav-link text-dark" href="./report">Make Report</a>
+        </li>
     </ul>
     </div>
     <div className='report'>
-      <a className="btn btn-danger" href='./report' type="report">Report A Need</a>
+      <a href="../Report" className="btn btn-danger">Report A Need</a>
     </div>
   </div>
 </nav>    

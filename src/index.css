@@ -5,6 +5,17 @@ body{
     font-family: "Lato", sans-serif;
 }
 
+.hero{
+    background: url('./src/assets/Human4.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 450px;
+}
+
+.hero  h1, p{
+    font-weight: bold;
+}
+
 a{
     text-decoration: none;
 }

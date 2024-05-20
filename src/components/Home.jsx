@@ -73,7 +73,7 @@ function Home() {
     <div className="text-center mt-5">
           <h2 className='text-success'>READY TO MAKE YOUR VOICE HEARD?</h2>
     </div>
-        <div className="bg-red mx-auto text-center mt-3"> <a href="" className="btn btn-danger">Click Here</a> </div>
+        <div className="bg-red mx-auto text-center mt-3"> <a href="../Report" className="btn btn-danger">Click Here</a> </div>
         <div className='mt-3'> <p>Citizens voices are often not heard due to several hindrances. This negates the possibility of government staying abreast with the emerging challenges and problems in different communities  in Nigeria, thus, hindering citizens active participation in the  decision-making processes and the development of inclusive policies for effective governance at levels. <br /> <br /> <span className='text-success'>CITIZEN RESPONSE</span> facilitates seamless communication between communities and government agencies, empowering communities to address their needs effectively, and promoting transparency and accountability in government interventions.</p>
         </div>
   </div>

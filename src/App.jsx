@@ -2,9 +2,9 @@ import React from 'react'
 import Nav from "./components/Header"
 import Home from "./components/Home"
 import About from "./components/About"
-import Access from "./components/Access"
+import Reports from "./components/Reports"
 import Contact from "./components/Contact"
-// import Report from "./components/Report"
+import Report from "./components/Report"
 import Footer from "./components/Footer"
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import AOS from 'aos';
@@ -17,6 +17,7 @@ function App() {
   //     once:true
   //   });
   // }, [])
+
   return (
     <>
 <Nav/>
@@ -24,9 +25,9 @@ function App() {
   <Routes>
     <Route exact path='/' element={<Home/>}/>
     <Route exact path='/about' element={<About/>}/>
-    <Route exact path='/access' element={<Access/>}/>
+    <Route exact path='/reports' element={<Reports/>}/>
     <Route exact path='/contact' element={<Contact/>}/>
-    {/* <Route exact path='/report' element={<Report/>}/> */}
+    <Route exact path='/report' element={<Report/>}/>
   </Routes>
 </Router>
 <Footer/>

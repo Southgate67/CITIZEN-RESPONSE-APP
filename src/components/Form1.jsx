@@ -7,9 +7,7 @@ function Form1() {
         name: '',
         email: '',
         phone: '',
-        state: '',
-        lga: '',
-        town: '',
+        subject: '',
         message: ''
     });
     
@@ -33,14 +31,8 @@ function Form1() {
     } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)) {
       errors.email = 'Invalid email format';
     }
-    if (!formData.state.trim()) {
-        errors.state = 'state is required';
-    }
-    if (!formData.lga.trim()) {
-      errors.lga = 'LGA is required';
-    }
-    if (!formData.town.trim()) {
-    errors.town = 'town is required';
+    if (!formData.subject.trim()) {
+        errors.subject = 'Subject is required';
     }
     if (!formData.message.trim()) {
       errors.message = 'Message is required';
@@ -74,12 +66,12 @@ function Form1() {
      <form action="" onSubmit={handleSubmit}>
             <div className="d-flex mt-3">
               <div className="flex-grow-1 me-2">
-              <input type="text" name='name' value={formData.name} className={`form-control ${errors.name && 'is-invalid'}`} placeholder='Name'
+              <input type="text" name='state' value={formData.name} className={`form-control ${errors.name && 'is-invalid'}`} placeholder='State'
             onChange={handleChange}/>
             {errors.name && <div className="invalid-feedback">{errors.name}</div>}
               </div>
               <div className="flex-grow-1 ms-2">
-              <input type="email" name='email' value={formData.email} className={`form-control ${errors.email && 'is-invalid'}`} placeholder='Email'
+              <input type="text" name='Local Govt.' value={formData.email} className={`form-control ${errors.email && 'is-invalid'}`} placeholder='Local Govt'
             onChange={handleChange}/>
             {errors.email && <div className="invalid-feedback">{errors.email}</div>}
               </div>
@@ -87,33 +79,21 @@ function Form1() {
 
             <div className="d-flex mt-3">
               <div className="flex-grow-1 me-2">
-              <input type="text" className="form-control" name='phone' value={formData.phone} placeholder='Phone (Optional)' 
+              <input type="text" className="form-control" name='town' value={formData.phone} placeholder='Town' 
             onChange={handleChange} />
               </div>
               <div className="flex-grow-1 ms-2">
-              <input type="text" className={`form-control ${errors.state && 'is-invalid'}`}  
-            onChange={handleChange} name="state" value={formData.state} placeholder='State' />
-            {errors.state && <div className="invalid-feedback">{errors.state}</div>}
+              <input type="text" className={`form-control ${errors.message && 'is-invalid'}`}  
+            onChange={handleChange} name="subject" value={formData.subject} placeholder='Enter report category' />
+            {errors.subject && <div className="invalid-feedback">{errors.subject}</div>}
               </div>
             </div>
 
-            <div className="d-flex mt-3">
-              <div className="flex-grow-1 me-2">
-              <input type="text" className="form-control" name='lga' value={formData.lga} placeholder='Enter your LGA' 
-            onChange={handleChange} />
-              </div>
-              <div className="flex-grow-1 ms-2">
-              <input type="text" className={`form-control ${errors.town && 'is-invalid'}`}  
-            onChange={handleChange} name="town" value={formData.town} placeholder='Town' />
-            {errors.town && <div className="invalid-feedback">{errors.town}</div>}
-              </div>
-            </div>
-
-            <textarea name="message" id="" className={`form-control mt-3 ${errors.message && 'is-invalid'}`} placeholder='Describe your report in detail here' cols="30" rows="10" 
+            {/* <textarea name="message" id="" className={`form-control mt-3 ${errors.message && 'is-invalid'}`} placeholder='Enter your message here' cols="30" rows="10" 
         onChange={handleChange} value={formData.message}></textarea>
-         {errors.message && <div className="invalid-feedback">{errors.message}</div>}
+         {errors.message && <div className="invalid-feedback">{errors.message}</div>} */}
             <div className="mt-3">
-              <button className="btn btn-danger">Submit</button>
+              <button className="btn btn-danger">Search</button>
             </div>
             </form>
 
