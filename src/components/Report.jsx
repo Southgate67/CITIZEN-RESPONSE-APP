@@ -1,6 +1,6 @@
 import React from "react";
 import Human3 from "../assets/Human3.jpg";
-import Form2 from "./Form2";
+import Form2 from './Form2'
 
 function Report() {
   return (
@@ -69,7 +69,7 @@ function Report() {
             <h5 className="pb-3">
               Welcome! Kindly fill the form below to submit your report.
             </h5>
-            <Form2 />
+            <Form2/>
           </div>
         </div>
       </div>
