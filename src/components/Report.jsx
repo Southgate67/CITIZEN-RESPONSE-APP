@@ -1,7 +1,6 @@
 import React from "react";
-// import Search from './Search'
-import Form2 from "./Form2";
 import Human3 from "../assets/Human3.jpg";
+import Form2 from "./Form2";
 
 function Report() {
   return (
@@ -30,7 +29,7 @@ function Report() {
         <p className="px-5 pt-1">
           <span className="text-success" style={{ fontWeight: 900 }}>
             CITIZEN RESPONSE
-          </span>{" "}
+          </span>
           is a platform that will enable citizens to report the challenges,
           emergencies, and threats in their communities . We aim to empower
           residents in every community with the right tool that will amplify
@@ -42,7 +41,7 @@ function Report() {
         <p className="px-5 pt-1">
           <span className="text-success" style={{ fontWeight: 900 }}>
             CITIZEN RESPONSE
-          </span>{" "}
+          </span>
           is committed to promoting sustainable development across the country.
           Let's join hands and build a safer and more prosperous, and enviable
           nation.
@@ -64,7 +63,7 @@ function Report() {
           </div>
 
           <div className="col-md-8 text-center mt-2" data-aos="fade-left">
-            <h4 className="text-danger pb-1" style={{}}>
+            <h4 className="text-danger pb-1">
               REPORT FORM
             </h4>
             <h5 className="pb-3">
