@@ -197,24 +197,25 @@ function Form2() {
           </div> */}
 
           <div className="flex-grow-1 ms-2">
-            <select id=""
+            <select
+              id=""
               type="select"
               className={`form-control ${errors.category && "is-invalid"}`}
               onChange={handleChange}
               name="category"
               value={formData.category}
               placeholder=""
-              >
+            >
               <option value="">Select a category</option>
               <option value="infrastructure">Infrastructure</option>
               <option value="healthcare">Healthcare</option>
               <option value="education">Education</option>
               <option value="security">Security</option>
               <option value="others">Others</option>
-              </select>
-              {errors.category && (
-                <div className="invalid-feedback">{errors.category}</div>
-              )}
+            </select>
+            {errors.category && (
+              <div className="invalid-feedback">{errors.category}</div>
+            )}
           </div>
         </div>
 

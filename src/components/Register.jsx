@@ -1,12 +1,12 @@
-import React from 'react'
-import Form from './form'
+import React from "react";
+import Form from "./form";
 
 function Register() {
   return (
     <>
-<Form/>
+      <Form />
     </>
-  )
+  );
 }
 
-export default Register
+export default Register;

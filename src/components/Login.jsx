@@ -1,12 +1,12 @@
-import React from 'react'
-import Form2 from './Form2'
+import React from "react";
+import Form2 from "./Form2";
 
 function Login() {
   return (
     <>
-<Form2/>
+      <Form2 />
     </>
-  )
+  );
 }
 
-export default Login
+export default Login;

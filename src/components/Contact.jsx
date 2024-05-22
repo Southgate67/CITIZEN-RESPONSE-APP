@@ -1,10 +1,10 @@
-import React from 'react'
-import Form from './form'
+import React from "react";
+import Form from "./form";
 
 function Contact() {
   return (
     <>
-          <div className=" about bg-success">
+      <div className=" about bg-success">
         <div className="container text-center pt-5">
           <h1
             className="mx-auto text-success"
@@ -30,7 +30,10 @@ function Contact() {
             </p>
             <div className="">
               <div className="mb-3">
-                <a href="tel:09137029216" className='text-decoration-none text-dark'>
+                <a
+                  href="tel:09137029216"
+                  className="text-decoration-none text-dark"
+                >
                   <span className="me-3">
                     <i className="fa fa-phone"></i>
                   </span>
@@ -38,15 +41,21 @@ function Contact() {
                 </a>
               </div>
               <div className="mt-3">
-                <a href="https://wa.me/+2349137029216" className='text-decoration-none text-dark'>
+                <a
+                  href="https://wa.me/+2349137029216"
+                  className="text-decoration-none text-dark"
+                >
                   <span className="me-3">
-                  <i className="fab fa-whatsapp"></i>
+                    <i className="fab fa-whatsapp"></i>
                   </span>
                   +234 9137029216
                 </a>
               </div>
               <div className="mt-3">
-                <a href="mailto:info@crystalshipment.com" className='text-decoration-none text-dark'>
+                <a
+                  href="mailto:info@crystalshipment.com"
+                  className="text-decoration-none text-dark"
+                >
                   <span className="me-3">
                     <i className="fa fa-envelope"></i>
                   </span>
@@ -56,13 +65,12 @@ function Contact() {
             </div>
           </div>
           <div className="col-md-8 mt-5" data-aos="fade-up">
-          <Form/>
+            <Form />
           </div>
         </div>
       </div>
-
     </>
-  )
+  );
 }
 
-export default Contact
+export default Contact;
