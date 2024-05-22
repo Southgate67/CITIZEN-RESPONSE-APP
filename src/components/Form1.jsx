@@ -82,11 +82,27 @@ function Form1() {
               <input type="text" className="form-control" name='town' value={formData.phone} placeholder='Town' 
             onChange={handleChange} />
               </div>
-              <div className="flex-grow-1 ms-2">
-              <input type="text" className={`form-control ${errors.message && 'is-invalid'}`}  
-            onChange={handleChange} name="subject" value={formData.subject} placeholder='Enter report category' />
-            {errors.subject && <div className="invalid-feedback">{errors.subject}</div>}
-              </div>
+
+          <div className="flex-grow-1 ms-2">
+            <select id=""
+              type="select"
+              className={`form-control ${errors.category && "is-invalid"}`}
+              onChange={handleChange}
+              name="category"
+              value={formData.category}
+              placeholder=""
+              >
+              <option value="">Select a category</option>
+              <option value="infrastructure">Infrastructure</option>
+              <option value="healthcare">Healthcare</option>
+              <option value="education">Education</option>
+              <option value="security">Security</option>
+              <option value="others">Others</option>
+              </select>
+              {errors.category && (
+                <div className="invalid-feedback">{errors.category}</div>
+              )}
+          </div>
             </div>
 
             {/* <textarea name="message" id="" className={`form-control mt-3 ${errors.message && 'is-invalid'}`} placeholder='Enter your message here' cols="30" rows="10" 

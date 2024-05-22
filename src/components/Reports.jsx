@@ -7,10 +7,10 @@ function Reports() {
     <>
       <div className="hero">
         <div className="container text-center pt-5">
-          <h1 className="text-light" style={{ marginTop: "100px" }}>
+          <h1 className="text-light" style={{ marginTop: "100px" }} data-aos="fade-right" >
             Search For Report Here
           </h1>
-          <p className="text-danger pt-3" style={{ fontSize: "24px" }}>
+          <p className="text-danger pt-3" style={{ fontSize: "34px" }} data-aos="fade-left">
             We have made it simple and easy
           </p>
         </div>
@@ -24,7 +24,7 @@ function Reports() {
 
       <div className="container">
         <div className="row pt-4">
-          <div className="col-md-4 mt-3">
+          <div className="col-md-4 mt-3" data-aos="fade-right">
             <img
               src={Human1}
               className="img-fluid rounded"
@@ -32,11 +32,11 @@ function Reports() {
               alt=""
             />
             <p className="pt-3">
-              Be empowered today to make a great difference for you community.
+              Be empowered today to make a great difference for your community.
             </p>
           </div>
 
-          <div className="col-md-8 text-center mt-2">
+          <div className="col-md-8 text-center mt-2" data-aos="fade-left">
             <h4 className="pb-1" style={{fontWeight:750}}>SEARCH</h4>
             <h5 className="pb-3">
               To search for reports, enter search details here

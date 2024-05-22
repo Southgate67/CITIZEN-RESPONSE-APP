@@ -12,7 +12,49 @@ body{
     height: 450px;
 }
 
+.hero p{
+    color: #E71800 !important;
+    font-weight: 800;
+
+}
+
+.hero1{
+    background: url('./src/assets/Designer7.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 450px;
+}
+
+.hero1 p{
+    color: black;
+    font-weight: bold;
+}
+
+.hero1 h1{
+    color: red;
+    font-weight: bold;
+}
+
+
+.text-danger{
+    color: #E71800 !important;
+    font-weight: bold;
+}
+
+.foot{
+    color: whitesmoke !important;
+}
+
 .hero  h1, p{
+    font-weight: bold;
+}
+
+.about{
+    height: 250px;
+    color: whitesmoke !important;
+}
+
+.about  h1, p{
     font-weight: bold;
 }
 
@@ -49,6 +91,26 @@ h1{
     font-weight: bolder;
 }
 
+/* .key-service p{
+    color: black;
+} */
+
+.founders{
+    background-image: linear-gradient(to left, rgb(199, 146, 49), rgb(10, 87, 10));
+}
+
+.ben{
+    background-image: linear-gradient(to left, rgb(199, 146, 49), rgb(10, 87, 10));
+}
+
+.jane{
+    background-image: linear-gradient(to left, rgb(68, 68, 189), rgb(10, 87, 10));
+}
+
+.queen{
+    background-image: linear-gradient(to left, rgb(212, 148, 212), rgb(10, 87, 10));
+}
+
 /* .join{
     margin-left: 13.5rem;
 } */
@@ -72,7 +134,7 @@ h1{
 .historyImage{
     padding-top: 50px;
     width: 350px;
-    margin-left: -20px;
+    margin-left: -12px;
     z-index: 50;
     position: relative;
 }

@@ -3,17 +3,17 @@ import React from "react";
 function Footer() {
   return (
     <>
-      <div className="bg-dark text-light mt-5 py-5">
+      <div className="bg-dark text-light mt-5 py-1">
         <div className="container">
           <div className="row">
             <div className="col-md-4">
-              <h4 className="text-success" style={{fontWeight:750}}>CITIZEN RESPONSE</h4>
-              <p>
+              <h4 className="foot pt-3" style={{fontWeight:750}}>CITIZEN RESPONSE</h4>
+              <p style={{fontWeight:450}}>
                 Citizens voices are often not heard due to several hindrances.
                 This negates the possibility of government staying abreast with
                 the emerging challenges and problems in different communities in
                 Nigeria. However,
-                <a href="" className="text-success text-decoration-none" style={{fontWeight:850}}>
+                <a href="" className="foot text-decoration-none" style={{fontWeight:750}}>
                   {" "}
                   "CITIZEN RESPONSE"
                 </a>{" "}
@@ -21,7 +21,7 @@ function Footer() {
               </p>
             </div>
             <div className="col-md-4">
-              <h4>QUICK LINKS</h4>
+              <h4 className="pt-3">QUICK LINKS</h4>
               <ul className="list-unstyled">
                 <li>
                   <a href="/" className="text-light text-decoration-none">
@@ -53,8 +53,8 @@ function Footer() {
             </div>
 
             <div className="col-md-4">
-              <h4>THE COMMUNITY</h4>
-              <p>
+              <h4 className="pt-3">THE COMMUNITY</h4>
+              <p style={{fontWeight:450}}>
                 Sign up today for tips and latest news and exclusive special
                 offers.
               </p>

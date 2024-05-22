@@ -28,9 +28,9 @@ function Home() {
       <div className='carouselImage'><img src={Human5} class="d-block w-100"style={{height:650}} alt="img"/></div>
       
     <div class="carousel-caption d-none d-md-block pb-5 mb-5">
-         <h1 className='text-light'style={{fontSize:50}} >Welcome To Citizen Response</h1>
-         <h3>Your platform for empowering communities and amplifying your voices.</h3>
-          <p>Together, we're making a difference by connecting community needs with government interventions. </p>
+         <h1 className=''style={{color: 'black', fontWeight: '900'}} >Welcome To Citizen Response</h1>
+         <h3 className='' style={{color: 'black', fontWeight: '750'}}>Platform for empowering communities and amplifying citizens' voices.</h3>
+          <p className='pb-5 mb-5 mt-3' style={{color: 'white', fontWeight: '750'}}>Together, we're making a difference by connecting community needs with government interventions</p>
        </div>
     </div>
 {/* first carousel end */}
@@ -40,8 +40,8 @@ function Home() {
     <div class="carousel-item" data-bs-interval="2000">
       <div className='carouselImage'><img src={images9} class="d-block w-100"style={{height:650}} alt="img"/></div>
     <div class="carousel-caption d-none d-md-block pb-5 mb-5">
-    <h1 className='text-light'>EMPOWERING COMMUNITIES</h1>
-  <p style={{color:'white', fontSize:'20px'}}>We provide a platform for reporting community needs, government engagement and community empowerment.</p>
+    <h1 className='text-light' style={{fontWeight: '900'}}>EMPOWERING COMMUNITIES</h1>
+  <p className='pb-5 mb-5 text-light' style={{fontWeight:'750', fontSize:'20px'}}>We provide a platform for reporting community needs, government engagement and community empowerment.</p>
   </div>
   </div>
 {/* second carousel ends */}
@@ -52,8 +52,8 @@ function Home() {
     <div className='carouselImage'><img src={images10}class="d-block w-100"style={{height:650}} alt="img"/></div>
     
     <div class="carousel-caption d-none d-md-block pb-5 mb-5">
-    <h1 className='text-light'>COMMUNITY CONNECT</h1>
-  <p style={{color:'white', fontSize:'20px'}}>We provide an avenue for communities members to converge and dissect issues common to them and relay their needs to the appropriate government agency for timely intervention.</p>
+    <h1 className='text-light' style={{fontWeight: '900'}}>COMMUNITY CONNECT</h1>
+  <p className='mb-5 pb-5' style={{color:'white', fontSize:'20px'}}>We provide an avenue for communities members to converge and dissect issues common to them and relay their needs to the appropriate government agency for timely intervention.</p>
   </div>
   </div>
   </div>
@@ -70,11 +70,11 @@ function Home() {
 
 {/* make your voice heard section */}
   <div className="container ">
-    <div className="text-center mt-5">
+    <div className="text-center mt-5" data-aos="fade-up">
           <h2 className='text-success'>READY TO MAKE YOUR VOICE HEARD?</h2>
     </div>
         <div className="bg-red mx-auto text-center mt-3"> <a href="../Report" className="btn btn-danger">Click Here</a> </div>
-        <div className='mt-3'> <p>Citizens voices are often not heard due to several hindrances. This negates the possibility of government staying abreast with the emerging challenges and problems in different communities  in Nigeria, thus, hindering citizens active participation in the  decision-making processes and the development of inclusive policies for effective governance at levels. <br /> <br /> <span className='text-success'>CITIZEN RESPONSE</span> facilitates seamless communication between communities and government agencies, empowering communities to address their needs effectively, and promoting transparency and accountability in government interventions.</p>
+        <div className='mt-3'data-aos="fade-up" > <p>Citizens voices are often not heard due to several hindrances. This negates the possibility of government staying abreast with the emerging challenges and problems in different communities  in Nigeria, thus, hindering citizens active participation in the  decision-making processes and the development of inclusive policies for effective governance at levels. <br /> <br /> <span className='text-success' style={{fontWeight:'800'}}>CITIZEN RESPONSE</span> facilitates seamless communication between communities and government agencies, empowering communities to address their needs effectively, and promoting transparency and accountability in government interventions.</p>
         </div>
   </div>
 
@@ -86,7 +86,7 @@ function Home() {
 
     <div className="col-md-6 mt-5">
       <h1 className='text-success'>WHY JOIN OUR PLATFORM?</h1>
-      <p className='why'><span className='text-success' >CITIZEN RESPONSE</span> is a user-friendly and citizen-centric web application were the citizens in each community in Nigeria can report the challenges and problems in their communities, such as environmental disasters, security threats, pollution, and other needs to the relevant government agencies and to their constituency representatives.</p> <p>The platform enables direct reporting to the concerned authorities without any third-party hindrance or interference.</p>
+      <p className='why'><span className='text-success' style={{ fontWeight:'800'}} >CITIZEN RESPONSE</span> is a user-friendly and citizen-centric web application were the citizens in each community in Nigeria can report the challenges and problems in their communities, such as environmental disasters, security threats, pollution, and other needs to the relevant government agencies and to their constituency representatives.</p> <p>The platform enables direct reporting to the concerned authorities without any third-party hindrance or interference.</p>
 
       <div className='join text-center'>
       <button type='button' name='button' className='btn btn-success mb-5'>JOIN</button></div>
@@ -96,19 +96,19 @@ function Home() {
 
 {/* History Section */}
 <section id='history' className='py-5'>
-  <div className="container">
-    <div className="row">
-      <div className="col-md-6 text-center">
-        <div className='historyArea text-center'>
+  <div className="container"data-aos="fade-right" >
+    <div className="row" data-aos="fade-right">
+      <div className="col-md-6 text-center" data-aos="fade-right">
+        <div className='historyArea text-center' data-aos="fade-right">
           <h3 className='text-success'>Our History</h3>
-          <p>Founded in February 2024, <span className='text-success'>CITIZEN RESPONSE</span> is a non-profit social enterprise. We aim to create a viable platform that will enhance transparency, accountability, good governance, and create increased citizens’ active participation in governance.  Since inception, we have...</p>
+          <p>Founded in February 2024, <span className='text-success' style={{fontWeight:'800'}}>CITIZEN RESPONSE</span> is a non-profit social enterprise. We aim to create a viable platform that will enhance transparency, accountability, good governance, and create increased citizens’ active participation in governance.  Since inception, we have...</p>
 
           <button type='button' name='button' className='btn btn-success px-3'>Read More</button>
         </div>
       </div>
 
       {/* Z-index Image */}
-      <div className="col-md-6 text-center">
+      <div className="col-md-6 text-center" >
         <div className='historyImage'>
           <img src={images11} className='img-fluid' alt="" />
         </div>
@@ -125,7 +125,7 @@ function Home() {
       <div className="col-md-6 text-center">
         <div className='workArea text-center'>
           <h3 className='text-success'>Our Work</h3>
-          <p><span className='text-success'>CITIZEN RESPONSE</span> facilitates seamless communication between communities and government agencies, empowering communities to effectiively raise awareness on their challenges effectively to the appropriate government agencies, and promoting transparency and accountability in government interventions. We foster community engagement by providing forums, discussions, and resources to empower community members and facilitate collaboration on their common local issues.</p>
+          <p><span className='text-success' style={{fontWeight:'800'}}>CITIZEN RESPONSE</span> facilitates seamless communication between communities and government agencies, empowering communities to effectiively raise awareness on their challenges effectively to the appropriate government agencies, and promoting transparency and accountability in government interventions. We foster community engagement by providing forums, discussions, and resources to empower community members and facilitate collaboration on their common local issues.</p>
 
           <button type='button' name='button' className='btn btn-success px-3'>Read More</button>
         </div>
@@ -143,24 +143,24 @@ function Home() {
 
 {/* Our impact Section */}
 <section id='impact' className='py-5'>
-  <div className="container">
-    <div className="row">
-    <div className="impactArea col-md-6">
+  <div className="container" data-aos="fade-left">
+    <div className="row" data-aos="fade-left">
+    <div className="impactArea col-md-6" data-aos="fade-left">
 
-      <div className=''>
+      <div className=''data-aos="fade-left">
         <h3 className='text-success text-center'>Our Impact</h3>
         <div className="d-flex mt-3">
           <div className="flex-grow-0 ms-0">
             <img src={Complaints} className="mb-2" alt="" style={{width:75}}/>
           </div>
-          <div className="flex-grow-1 ms-2">
+          <div className="flex-grow-1 ms-2" data-aos="fade-left">
             <p className="ms-3 mb-1 pt-3">Over <span className='text-danger'>35,800</span> complaints, challenges, and reports logged.</p>
           </div>
         </div>
       </div>
 
-      <div className="d-flex mt-1">
-        <div className="flex-grow-0 ms-2">
+      <div className="d-flex mt-1" >
+        <div className="flex-grow-0 ms-2" data-aos="fade-left">
           <img src={Resolved} className="my-1" alt="" style={{width:65}}/>
       </div>
       <div className="flex-grow-1 ms-2">
@@ -168,8 +168,8 @@ function Home() {
       </div>
       </div>
 
-      <div className="d-flex mt-1">
-        <div className="flex-grow-0 ms-2">
+      <div className="d-flex mt-1" >
+        <div className="flex-grow-0 ms-2" data-aos="fade-left">
           <img src={Calls} className="my-1" alt="" style={{width:65}}/>
       </div>
       <div className="flex-grow-1 ms-2">
@@ -188,8 +188,8 @@ function Home() {
     </div>
    
    {/* Z-index Image */}
-    <div className="col-md-6 text-center">
-      <div className='impactImage'>
+    <div className="col-md-6 text-center" data-aos="fade-left">
+      <div className='impactImage' data-aos="fade-left">
         <img src={impact} className='img-fluid' alt=""/>
       </div>
     </div>
@@ -204,7 +204,7 @@ function Home() {
       <div className="col-md-6 text-center">
         <div className='teamArea text-center'>
           <h3 className='text-success'>The Team</h3>
-          <p>The management team embodies a diverse range of skills, experiences, and a shared commitment and vision to empower citizens, foster community engagement, and drive positive change in the 774 LGAs in Nigeria. With our expertise and dedication, we are paving the way for a more inclusive and participatory society, where every voice matters. <span className='text-success' style={{fontWeight:850}}>CITIZEN RESPONSE</span> remains committed to expanding the frontiers of socio-economic developemnt of Nigeria.</p>
+          <p>The management team embodies a diverse range of skills, experiences, and a shared commitment and vision to empower citizens, foster community engagement, and drive positive change in the 774 LGAs in Nigeria. With our expertise and dedication, we are paving the way for a more inclusive and participatory society, where every voice matters. <span className='text-success' style={{fontWeight:'800'}} >CITIZEN RESPONSE</span> remains committed to expanding the frontiers of socio-economic developemnt of Nigeria.</p>
 
           <button type='button' name='button' className='btn btn-success px-3'>Read More</button>
         </div>
