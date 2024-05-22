@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 // import axios from 'axios';
 
 
-function Form() {
+function form() {
     const [formData, setFormData] = useState({
         name: '',
         email: '',
@@ -102,4 +102,4 @@ function Form() {
   )
 }
 
-export default Form
+export default form
