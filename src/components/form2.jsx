@@ -182,20 +182,6 @@ function Form2() {
             )}
           </div>
 
-          {/* <div className="flex-grow-1 ms-2">
-            <select
-              type="type"
-              className={`form-control ${errors.category && "is-invalid"}`}
-              onChange={handleChange}
-              name="category"
-              value={formData.category}
-              placeholder=""
-            />
-            {errors.category && (
-              <div className="invalid-feedback">{errors.category}</div>
-            )}
-          </div> */}
-
           <div className="flex-grow-1 ms-2">
             <select
               id=""
