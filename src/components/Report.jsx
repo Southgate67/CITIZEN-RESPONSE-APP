@@ -5,7 +5,7 @@ import Form2 from './form2'
 function Report() {
   return (
     <>
-      <div className="hero1">
+      <div className="hero1" style{{backroundImage: "../assets/Designer7.png"}}>
         <div className="container text-center pt-5">
           <h1 className="" style={{marginTop: "140px"}}>
             Enter Your Report Here
