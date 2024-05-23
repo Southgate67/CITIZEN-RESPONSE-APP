@@ -19,7 +19,7 @@ body{
 }
 
 .hero1{
-    background: url('./src/assets/Designer7.png');
+/*     background: url('./src/assets/Designer7.png'); */
     background-position: center;
     background-repeat: no-repeat;
     height: 450px;
